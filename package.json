@@ -1,0 +1,47 @@
+{
+  "name": "windicss-arco",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@arco-design/web-react": "^2.27.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@arco-design/webpack-plugin": "^1.7.0",
+    "customize-cra": "^1.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "react-app-rewired": "^2.1.8",
+    "windicss": "^3.3.0",
+    "windicss-webpack-plugin": "^1.6.0"
+  }
+}
